@@ -1,0 +1,32 @@
+name: 问题反馈
+description: App 出错、闪退、显示不对
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Issue 是公开的，请不要贴密码、验证码、兑换码、QQ 号、邮箱等隐私信息，截图前先打码。
+  - type: input
+    id: version
+    attributes:
+      label: App 版本
+      description: 「我的 → 设置 → 关于 → 版本」
+      placeholder: 例如 2.8.1
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: 手机型号和 Android 版本
+      placeholder: 例如 小米 14，Android 15
+  - type: textarea
+    id: what
+    attributes:
+      label: 发生了什么
+      description: 你做了什么、期望看到什么、实际看到了什么
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: 截图或录屏
+      description: 可以直接拖进来

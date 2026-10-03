@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 账号、封禁、余额问题
+    url: https://neko.中国
+    about: 涉及个人账号的问题请在 App 的「账号状态」里申诉，或到官网联系，不要在公开 Issue 里贴账号信息。
